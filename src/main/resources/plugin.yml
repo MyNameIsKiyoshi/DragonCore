@@ -1,5 +1,80 @@
 name: DragonCore
-version: '1.0.1'
+version: '1.1.0'
 main: fur.kiyoshi.dragoncore.Main
 api-version: 1.19
-authors: [ MyNameIsKiyoshi ]
+authors: [ MyNameIsKiyoshi, WhiXard ]
+softdepend: [PlaceholderAPI] # This is used, if your plugin works without PlaceholderAPI.
+
+commands:
+  about:
+    description: "Send the plugin info"
+    usage: /about
+    permission: default
+  heal:
+    description: "Heals the player"
+    usage: /heal
+    permission: dragoncore.heal
+  fly:
+    description: "Flight"
+    usage: /fly
+    permission: dragoncore.fly
+  version:
+    description: "Display the plugin version"
+    usage: /version
+    permission: default
+  tp:
+    description: "Teleport"
+    usage: /tp <player>
+    permission: dragoncore.tp
+  tpa:
+    description: "Teleport Request"
+    usage: /tpa <player>
+    permission: dragoncore.tpa
+  staff:
+    description: "Staff Mode"
+    usage: /staff
+    permission: dragoncore.staff
+  stafflist:
+    description: "List of staff"
+    usage: /stafflist
+    permission: dragoncore.stafflist
+  help:
+    description: "Help"
+    usage: /help
+    permission: dragoncore.help
+  staffmode:
+    description: "Staff Mode"
+    usage: /staffmode
+    permission: dragoncore.staffmode
+  bloodmoonstatus:
+    description: "Bloodmoon Status"
+    usage: /bloodmoonstatus
+    permission: dragoncore.bloodmoonstatus
+  screenshare:
+    description: "Screenshare"
+    usage: /screenshare <player>
+    permission: dragoncore.screenshare
+  ss:
+    description: "Screenshare"
+    usage: /ss <player>
+    permission: dragoncore.screenshare
+  controllo:
+    description: "Controllore"
+    usage: /controllo <player>
+    permission: dragoncore.controllo
+  freeze:
+    description: "Freeze"
+    usage: /freeze
+    permission: dragoncore.freeze
+  mute:
+    description: "Mute"
+    usage: /mute <player>
+    permission: dragoncore.test
+  chatfilter:
+    description: "Chat Filter"
+    usage: /chatfilter
+    permission: dragoncore.chatfilter
+  tags:
+    description: "Tags Menu"
+    usage: /tags
+    permission: dragoncore.tagsmanage

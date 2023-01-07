@@ -8,10 +8,42 @@
 # DragonCore - 1.0.1 By MyNameIsKiyoshi (Kiyoshi#1010) - https://discord.gg/ka7uGKfy7p
 
 # config version (Don't touch)
-vConfig: 18
+vConfig: 19
 # config version (Don't touch)
 
 # Kiyoshi API (Don't touch)
 # http://nexus.kiyoshi.space
 Nexus: true
 # Kiyoshi API (Don't touch)
+
+database:
+  # Database type (MySQL or SQLite)
+  type: MariaDB
+  username: "root"
+  password: "password"
+  host: "localhost"
+  port: 3306
+  database: "database"
+
+
+functions:
+  tag_system: true
+  chat_filter: true
+  database: true
+
+resourcePack:
+  enabled: false
+  url: ""
+  hash: ""
+  prompt: "Enable the texture pack for better experience"
+  forced: false
+
+screenshare:
+  ban_command: "ban %player% Cheating"
+
+tags:
+
+
+# This is the message that will be sent to the player when they join the server.
+chatfilter:
+  blacklist: []
